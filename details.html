@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayBnb - House Rental Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/package.css">
+    <link rel="stylesheet" href="css/details.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <a href="/index.html"><img src="images/logo-red.png" alt="StayBnb"></a>
+            </div>
+            <div id="nav-items">
+                <ul>
+                    <li><a href="/index.html" id="li1" style="color:black ;">Popular Places</a></li>
+                    <li><a href="/package.html" id="li2" style="color:black ;">Online Packages</a></li>
+                    <li><a href="/details.html" id="li3" style="color:black ;">Details</a></li>
+                </ul>
+                <button class="btn" style="border:1px solid red ; background:red">Register Now</button>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span id="menuIcon">&#9776;</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="house-info">
+            <h1>Wenge House</h1>
+            <p>245 reviews&nbsp;&nbsp;&nbsp;Location : San Francisco, Callifornia, United States</p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/house-1.png" alt=""></div>
+            <div><img src="images/house-2.png" alt=""></div>
+            <div><img src="images/house-3.png" alt=""></div>
+            <div><img src="images/house-4.png" alt=""></div>
+            <div><img src="images/house-5.png" alt=""></div>
+        </div>
+        <div class="homePriceDetails">
+            <h1>Entire Rental Unit Hosted By Brandon</h1>
+            <p>2 Guests &nbsp;&nbsp;&nbsp;2 Beds &nbsp;&nbsp;&nbsp;1 Bathroom</p>
+            <p class="price"><span>$100</span>/Day</p>
+        </div>
+        <div class="houseFormContainer">
+            <form class="houseForm">
+                <div class="input-label house-input-label">
+                    <label>Check In</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div class="input-label house-input-label">
+                    <label>Check Out</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div class="input-label house-input-label">
+                    <label>Guest</label>
+                    <input type="text" placeholder="2 Guest">
+                </div>
+
+                <button type="submit" class="house-input-label">Check Availability</button>
+            </form>
+        </div>
+        <div class="house-info">
+            <div>
+                <h3>Entire Home</h3>
+                <p>You will have the entire home for you.</p>
+            </div>
+            <div>
+                <h3>Enhanced Clean</h3>
+                <p>This host has committed to Staybnb's cleaning process.</p>
+            </div>
+            <div>
+                <h3>Great Location</h3>
+                <p>90% of recent guests gave the location a 5 star rating.</p>
+            </div>
+            <div>
+                <h3> Great Check-in Experience</h3>
+                <p>100% of recent guests gave the check-in process a 5 star rating.</p>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="host">
+                <img src="images/host.png" alt="">
+            </div>
+            <div class="host-info">
+                <h1>Hosted by Vijay Thakur</h1>
+                <p>245 reviews &nbsp;&nbsp;&nbsp;response rate 100% &nbsp;&nbsp;&nbsp;response time: 60min</p>
+                <button>Contact Host</button>
+            </div>
+        </div>
+    </main>
+
+    <footer style="padding-bottom:2rem ;">
+        <p>Copyright &copy; 2022 - <strong>Vijay Thakur</strong> Inc. All Rights Reserved</p>
+    </footer>
+    <script>
+        let menuItems = document.getElementById("nav-items");
+        let menuIcon = document.getElementById("menuIcon");
+        let li1 = document.getElementById("li1");
+        let li2 = document.getElementById("li2");
+        let li3 = document.getElementById("li3");
+        function toggleMenu() {
+            menuItems.classList.toggle("showMenu")
+
+        }
+
+        menuIcon.style.border = "1px solid red";
+        menuIcon.style.borderRadius = "6px";
+        menuIcon.style.color = "red";
+        menuItems.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+
+
+        if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
+            li1.style.color = "red"
+            li2.style.color = "white"
+            li3.style.color = "white"
+        }
+        if (window.location.pathname == "/package.html") {
+            li1.style.color = "black"
+            li2.style.color = "red"
+            li3.style.color = "black"
+        }
+        if (window.location.pathname == "/details.html") {
+            li1.style.color = "black"
+            li2.style.color = "black"
+            li3.style.color = "red"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayBnb - House Rental Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/package.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/index.html"><img src="images/logo.png" alt="StayBnb"></a>
+            </div>
+            <div id="nav-items">
+                <ul>
+                    <li><a href="/index.html" id="li1">Popular Places</a></li>
+                    <li><a href="/package.html" id="li2">Online Packages</a></li>
+                    <li><a href="/details.html" id="li3">Details</a></li>
+                </ul>
+                <button class="btn">Register Now</button>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span>&#9776;</span>
+            </div>
+        </nav>
+        <div class="home">
+            <h1>Find Your <span style="color:red">Next Stay</span></h1>
+            <form>
+                <div class="input-label">
+                    <label>Location</label>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                <div class="input-label">
+                    <label>Check In</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div class="input-label">
+                    <label>Check Out</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div class="input-label">
+                    <label>Guest</label>
+                    <input type="text" placeholder="Add Guest">
+                </div>
+                <button type="submit"><img src="images/search.png" alt="search"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="exclusive">
+            <h1>Exclusives</h1>
+            <div class="exclusiveCards">
+                <div class="exclusiveCard exclusiveCard1">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard2">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard3">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard4">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard5">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard6">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard7">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard8">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard9">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+                <div class="exclusiveCard exclusiveCard10">
+                    <div class="exclusive-info">
+                        <p>London</p>
+                        <p>Starts @</p>
+                        <p>$250.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <h1>Trending Places</h1>
+            <div class="trendingCards">
+                <div class="trendingCard trendingCard1">
+                    <p>London</p>
+                </div>
+                <div class="trendingCard trendingCard2">
+                    <p>New York</p>
+                </div>
+                <div class="trendingCard trendingCard3">
+                    <p>Paris</p>
+                </div>
+                <div class="trendingCard trendingCard4">
+                    <p>New Delhi</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="shopping-info">
+            <h1>Sharing <br>is <span style="color: red;">Earning Now</span></h1>
+            <p>Great Opportunity to make by Sharing <span style="color: red;">Your Extra Space.</span></p>
+            <a href="">Know More</a>
+        </div>
+
+        <div class="travel">
+            <h1>Traveller's Stories</h1>
+            <div class="travelCards">
+                <div class="travelCard travelCard1">
+                    <p>Popular European <br> countries with a budget of <br> just $10,000</p>
+                </div>
+                <div class="travelCard travelCard2">
+                    <p>Traveled more than 100 <br> countries in less than a <br> year.</p>
+                </div>
+                <div class="travelCard travelCard3">
+                    <p>Best experience you get <br> while travelling to thailand</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="moneyBtn">
+            <a href="">Start Making Money</a>
+        </div>
+        <div class="about">
+            <h1>About StayBnb</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis ad id ut perferendis ipsum dolor
+                placeat qui, reprehenderit error, quae suscipit porro consectetur laborum temporibus incidunt maxime
+                illo esse! Illo veritatis vero natus perspiciatis omnis illum dolore fugit deleniti enim voluptates
+                vitae dolorem reprehenderit a, ducimus ipsa explicabo aliquid, accusamus voluptatum deserunt expedita.
+                Error quis voluptate ex fuga illum.</p>
+            <div class="social">
+                <a href=""><img src="images/fb.svg" alt="facebook"></a>
+                <a href=""><img src="images/youtube.svg" alt="youtube"></a>
+                <a href=""><img src="images/twitter.svg" alt="twitter"></a>
+                <a href=""><img src="images/linkedIn.svg" alt="linkedIn"></a>
+                <a href=""><img src="images/insta.svg" alt="instagram"></a>
+            </div>
+        </div>
+    </main>
+
+
+    <footer style="padding-bottom:2rem ;">
+        <p>Copyright &copy; 2022 - <strong>Vijay Thakur</strong> Inc. All Rights Reserved</p>
+    </footer>
+    <script>
+        let menuItems = document.getElementById("nav-items");
+        let li1 = document.getElementById("li1");
+        let li2 = document.getElementById("li2");
+        let li3 = document.getElementById("li3");
+        function toggleMenu() {
+            menuItems.classList.toggle("showMenu")
+        }
+        if (window.location.pathname == "/index.html" || window.location.pathname == "/") {
+            li1.style.color = "red"
+            li2.style.color = "white"
+            li3.style.color = "white"
+        }
+        if (window.location.pathname == "/package.html") {
+            li1.style.color = "black"
+            li2.style.color = "red"
+            li3.style.color = "black"
+        }
+        if (window.location.pathname == "/details.html") {
+            li1.style.color = "black"
+            li2.style.color = "black"
+            li3.style.color = "red"
+        }
+    </script>
+</body>
+
+</html>

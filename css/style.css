@@ -1,0 +1,449 @@
+.exclusive h1, .trending h1, .travel h1 {
+    text-align: center;
+    border-bottom: 2px solid red;
+    width: 15rem;
+    font-size: 2.5rem;
+    color: darkblue;
+    margin: 1rem auto;
+    padding-bottom: 0.5rem;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.trending h1 {
+    width: 25rem;
+}
+
+.travel h1 {
+    width: 30rem;
+    margin: 3rem auto;
+}
+
+.exclusive {
+    padding: 1rem 0;
+}
+
+.exclusiveCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.exclusiveCard {
+    width: 16rem;
+    height: 8rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.exclusiveCard:hover {
+    transform: scale(1.06)
+}
+
+.exclusiveCard1 {
+    background-image: url(../images/image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard2 {
+    background-image: url(../images/image-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard3 {
+    background-image: url(../images/image-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard4 {
+    background-image: url(../images/image-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard5 {
+    background-image: url(../images/image-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard6 {
+    background-image: url(../images/image-6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard7 {
+    background-image: url(../images/image-7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard8 {
+    background-image: url(../images/image-8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusiveCard9 {
+    background-image: url(../images/image-9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.exclusiveCard10 {
+    background-image: url(../images/image-10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.exclusive-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.4rem;
+}
+
+.trendingCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trendingCard {
+    width: 20rem;
+    height: 27rem;
+    margin: 3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.trendingCard p {
+    opacity: 0;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.trendingCard p:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.trendingCard1 {
+    background-image: url(../images/dubai.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trendingCard2 {
+    background-image: url(../images/new-york.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trendingCard3 {
+    background-image: url(../images/paris.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trendingCard4 {
+    background-image: url(../images/new-delhi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shopping-info {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/banner-2.png);
+    width: 90%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    flex-direction: column;
+    color: white;
+    border-radius: 5px;
+}
+
+.shopping-info h1 {
+    font-size: 4rem;
+    margin: 2.1rem 3rem;
+}
+
+.shopping-info p {
+    font-size: 2rem;
+    margin: 0 3rem;
+}
+
+.shopping-info a {
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: red;
+    transition: all 0.3s;
+    border-radius: 5px;
+    padding: 0.7rem 2rem;
+    width: 13rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 3rem 3rem;
+}
+
+.shopping-info a:hover {
+    border: 1px solid darkred;
+    background-color: darkred;
+}
+
+.travelCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.travelCard {
+    width: 27rem;
+    margin: 1rem;
+    height: 28rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 50px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.travelCard1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../images/story-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.travelCard2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../images/story-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.travelCard3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../images/story-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.moneyBtn a {
+    border: 1px solid red;
+    padding: 1rem 2rem;
+    color: white;
+    background: red;
+    border-radius: 33px;
+    display: flex;
+    width: 25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.moneyBtn a:hover {
+    background-color: darkred;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid #a49595;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    line-height: 68px;
+    letter-spacing: 4px;
+    color: #250707;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social a {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+    margin: 0 1rem;
+    filter: grayscale(1);
+}
+
+@media screen and (max-width:574px) {
+    .exclusiveCard {
+        width: 26rem;
+        height: 13rem;
+    }
+
+    .exclusive-info {
+        font-size: 2.4rem;
+    }
+
+    .moneyBtn a {
+        width: 85%;
+    }
+
+    .about {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:704px) {
+    .trendingCard {
+        margin: 1rem 0.5rem;
+    }
+}
+
+@media screen and (max-width:672px) {
+    .trendingCard {
+        width: 90%;
+        height: 33rem;
+    }
+
+    .trendingCard p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .exclusive h1, .trending h1, .travel h1 {
+        width: 87% !important;
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .shopping-info h1 {
+        font-size: 2.7rem !important;
+        margin: 2rem 2rem !important;
+    }
+
+    .shopping-info p {
+        font-size: 1.5rem !important;
+        margin: 0rem 2rem !important;
+    }
+
+    .shopping-info a {
+        padding: 0.5rem 1rem;
+        width: 10rem;
+        font-size: 1.1rem;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .shopping-info h1 {
+        font-size: 2.1rem !important;
+    }
+
+    .shopping-info p {
+        font-size: 1.1rem !important;
+    }
+
+    .shopping-info a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:928px) {
+    .travelCard {
+        width: 35rem;
+        height: 36rem;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .social a {
+        width: 50px;
+        height: 50px;
+    }
+
+}
